@@ -2,10 +2,10 @@
 
 import subprocess
 
-filepath="C:\\users\\kjensb\\sym0158.bat"
+#filepath="C:\\users\\kjensb\\sym0158.bat"
 #filepath="C:\\users\\kjensb\\sym0219.bat"
 #filepath="C:\\users\\kjensb\\sym0227.bat"
-#filepath="C:\\users\\kjensb\\sym0390.bat"
+filepath="C:\\users\\kjensb\\sym0390.bat"
 
 print 'Running SYMCLI commands....'
 p = subprocess.Popen(filepath, shell=True, stdout = subprocess.PIPE)
